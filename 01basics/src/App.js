@@ -1,8 +1,12 @@
-
+import Print from "./new";
 
 function App() {
   return (
-    <h1>hello world</h1>
+    <>
+      <Print/>
+      <h1>hello world</h1>
+    </>
+  
   );
 }
 

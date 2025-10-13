@@ -1,11 +1,14 @@
 
-
+import NewFnc from "./new"
 function App() {
 
 
   return (
-   <h1>hello</h1>
+    <NewFnc/>
   )
 }
 
-export default App
+
+
+export default App 
+
