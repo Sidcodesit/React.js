@@ -15,10 +15,11 @@ function App() {
   return (
     <>
     <h1>Counter value {value}</h1>
+    <h3>hello</h3>
     <h2>new counter value {value}</h2>
     <button onClick={clicked}>increase counter value</button>
     </>
   )
 }
 
-export default App
+export default App    
