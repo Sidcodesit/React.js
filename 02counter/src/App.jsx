@@ -8,20 +8,14 @@ function App() {
 
   // let counter = 5
 
-  const addValue = ()  => {
-    counter = counter + 1
-    setCounter(counter)
-    
-  }
 
   return (
     <>
   <h1>New project</h1>
   <h2>counter value: {counter}</h2>
 
-  <button onClick={addValue}>add value {counter}</button>
+  <button onClick={ ()=> setCounter(counter+1)}>add value {counter}</button>
   <br />
-  <button>remove value {counter}</button>
   <p>footer: {counter}</p>
     </>
   )
