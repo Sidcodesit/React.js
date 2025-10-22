@@ -1,0 +1,14 @@
+.card{
+  background-color:brown;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.nav{
+  background-color: #1aa123;
+}
+
+.games{
+  background-color: #4b0404;
+}
