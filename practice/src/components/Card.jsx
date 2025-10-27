@@ -27,3 +27,4 @@ const Card = (properties) => {
 }
 
 export default Card
+
