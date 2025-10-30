@@ -1,0 +1,9 @@
+.hdr{
+  background-color: rgb(114, 30, 209);
+  margin: 10px;
+  padding: 10px;
+}
+
+.hdr button{
+  background-color: pink;
+}

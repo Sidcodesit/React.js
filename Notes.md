@@ -123,3 +123,4 @@ It’s the process React uses to compare the old Virtual DOM with the new one.
 React finds the differences (diffing) and updates only the changed parts in the Real DOM.
 
 This makes updates efficient and fast.
+
