@@ -108,7 +108,7 @@ function App() {
 React fibre is responsible for virtual dom and it is developed by React core team.
 
 
-It’s the new core engine of React (from React 16+).
+It’s the new core engine of React (from React 16+). 
 
 Makes rendering faster and smoother.
 
