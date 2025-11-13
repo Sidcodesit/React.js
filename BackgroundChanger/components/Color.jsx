@@ -11,6 +11,11 @@ const Color = () => {
           <button className='bg-green-500 outline-none px-2 py-2 rounded-2xl text-white shadow-lg' onClick={()=>setColor("green")}>green</button>
           <button className='bg-pink-500 outline-none px-2 py-2 rounded-2xl text-white shadow-lg' onClick={()=>setColor("pink")}>pink</button>
           <button className='bg-yellow-400 outline-none px-2 py-2 rounded-2xl text-white shadow-lg' onClick={()=>setColor("yellow")}>yellow</button>
+            <button className='bg-purple-500 outline-none px-2 py-2 rounded-2xl text-white shadow-lg' onClick={() => setColor("purple")}>Purple</button>
+          <button className='bg-orange-500 outline-none px-2 py-2 rounded-2xl text-white shadow-lg' onClick={() => setColor("orange")}>Orange</button>
+          <button className='bg-teal-500 outline-none px-2 py-2 rounded-2xl text-white shadow-lg' onClick={() => setColor("teal")}>Teal</button>
+          <button className='bg-gray-500 outline-none px-2 py-2 rounded-2xl text-white shadow-lg' onClick={() => setColor("gray")}>Gray</button>
+          <button className='bg-black outline-none px-2 py-2 rounded-2xl text-white shadow-lg' onClick={() => setColor("black")}>Black</button>
         </div>
       </div>
     </div>
