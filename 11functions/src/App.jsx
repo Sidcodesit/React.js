@@ -17,8 +17,9 @@ const App = () => {
     
   }
   return (
-   <div>
-     <div>      
+   <div onClick={(elem)=>{console.log(elem.pageX);
+   }}>
+     {/* <div>      
       <button onClick={clicked} className='bg-black text-white p-2 m-10 rounded-xl border-2 border-red-600'>Click Here</button>
       <button onClick={()=>{console.log("clicked on me");
       }} className='bg-black text-white p-2 m-10 rounded-xl border-2 border-red-600'>Click Here</button>
@@ -28,7 +29,11 @@ const App = () => {
     <div className='h-[100px] w-[100px] bg-red-600' onMouseMove={(elem)=>{console.log(elem);
     }}>
       
-    </div>
+    </div> */}
+    <div className=' h-screen w-full bg-red-600'></div>
+    <div className=' h-screen w-full bg-blue-200'></div>
+    <div className=' h-screen w-full bg-pink-500'></div>
+ 
    </div>
   )
 }
